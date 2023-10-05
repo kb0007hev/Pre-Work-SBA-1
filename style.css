@@ -1,0 +1,75 @@
+.container {
+  font-family: monospace;
+    max-width: 900px;
+    text-align: center;
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff; 
+    margin: auto;
+    gap: 10px 10px;
+    vertical-align: middle;
+  }
+  
+  
+  
+  header {
+    background-color: blue;
+    height: 4rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: fixed; 
+    width: 56.2rem; 
+
+ 
+  }
+
+  main {
+  display: flex; 
+  gap: 10px; 
+  }
+  
+nav {
+  background-color: lightblue;
+  flex-grow: 1;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-basis: 4rem;
+  margin: 80px 0 0 0; 
+  }
+  
+section {
+    background-color: gray;
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 80px 0 0 0; 
+  }
+  
+aside {
+    background-color: lightblue;
+    flex-grow: 1;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-basis: 4rem;
+    margin: 80px 0 0 0; 
+  }
+  
+  footer {
+    background-color: blue;
+    height: 4rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 0 0;  
+    position: fixed; 
+    width: 56.2rem; 
+  }
+
+  
